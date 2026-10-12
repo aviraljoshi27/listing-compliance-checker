@@ -1,0 +1,14 @@
+[project]
+name = "listing-compliance-checker"
+version = "0.1.0"
+description = "Flags risky claims in product listings against a simple rulebook, and measures how an LLM does compared to keyword matching."
+readme = "README.md"
+authors = [
+    { name = "Aviral Joshi", email = "aviraljoshi2718@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12.0"]
+build-backend = "uv_build"

@@ -1,0 +1,16 @@
+# The environment uv builds. Anyone can rebuild it from pyproject.toml and uv.lock
+.venv/
+
+# My API keys. Only .env.example, with fake values, gets committed
+.env
+
+# Raw data is big and gets downloaded by a script instead
+data/raw/
+
+# Files Python and the tools make by themselves
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+dist/
