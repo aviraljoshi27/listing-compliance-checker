@@ -4,7 +4,7 @@
 # My API keys. Only .env.example, with fake values, gets committed
 .env
 
-# Raw data is big and gets downloaded by a script instead
+# Raw data is downloaded by scripts/download_data.py, never committed
 data/raw/
 
 # Files Python and the tools make by themselves
